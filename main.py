@@ -123,9 +123,9 @@ async def stopautoOwO(ctx):
 
 
 @bot.command(pass_context=True)
-async def Owobanbypass(ctx):
+async def w(ctx):
     await ctx.message.delete()
-    await ctx.send('owobanbypass is now **enabled**!')
+    await ctx.send('owobuy 1')
     global dmcs
     dmcs = True
     while dmcs:
