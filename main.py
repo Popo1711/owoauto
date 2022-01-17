@@ -98,17 +98,17 @@ async def help(ctx):
 
 
 @bot.command(pass_context=True)
-async def p(ctx):
+async def f(ctx):
     await ctx.message.delete()
-    await ctx.send(';b npc 1')
+    await ctx.send('ff')
     global dmcs
     dmcs = True
     while dmcs:
         async with ctx.typing():
             await asyncio.sleep(1)
-            await ctx.send(';pokemon')
+            await ctx.send('ff')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(12)
+            await asyncio.sleep(4)
        
            
           
