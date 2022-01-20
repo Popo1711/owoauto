@@ -104,7 +104,6 @@ async def ttg(ctx):
     global dmcs
     dmcs = True
     while dmcs:
-        async with ctx.typing():
             await asyncio.sleep(1)
             await ctx.send('ttg feed')
             print(f"{Fore.GREEN}succefully owoh")
