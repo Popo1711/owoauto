@@ -120,7 +120,7 @@ async def ttg(ctx):
             await asyncio.sleep(5)
             await ctx.send('ttg walk')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(120)  
+            await asyncio.sleep(180)  
           
 
 
