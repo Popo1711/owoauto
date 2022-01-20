@@ -28,8 +28,8 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="Ur Mom", type=4)
-    await bot.change_presence(status=discord.Status.idle, activity=activity)
+    activity = discord.Game(name="", type=4)
+    await bot.change_presence(status=discord.Status.invisible, activity=activity)
     print(f'''{Fore.RED}
 ██╗░░██╗███████╗██████╗░██╗
 ██║░░██║██╔════╝██╔══██╗██║
@@ -98,7 +98,7 @@ async def help(ctx):
 
 
 @bot.command(pass_context=True)
-async def f(ctx):
+async def ttg(ctx):
     await ctx.message.delete()
     await ctx.send('ff')
     global dmcs
@@ -106,10 +106,15 @@ async def f(ctx):
     while dmcs:
         async with ctx.typing():
             await asyncio.sleep(1)
-            await ctx.send('ff')
+            await ctx.send('ttg feed')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(4)
-       
+            await asyncio.sleep(3)
+            await ctx.send('ttg train')
+            print(f"{Fore.GREEN}succefully owoh")
+            await asyncio.sleep(3)
+            await ctx.send('ttg walk')
+            print(f"{Fore.GREEN}succefully owoh")
+            await asyncio.sleep(3)
            
           
 
