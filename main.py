@@ -108,13 +108,13 @@ async def ttg(ctx):
             await asyncio.sleep(1)
             await ctx.send('ttg feed')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(3)
+            await asyncio.sleep(5)
             await ctx.send('ttg train')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(3)
+            await asyncio.sleep(5)
             await ctx.send('ttg walk')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(3)
+            await asyncio.sleep(5)
            
           
 
